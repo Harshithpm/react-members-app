@@ -36,6 +36,7 @@
   },
   "devDependencies": {
     "@fortawesome/fontawesome-free": "^5.12.0",
+    "node-sass": "^4.13.0",
     "tailwindcss": "^1.1.4"
   }
 }
