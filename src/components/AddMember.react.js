@@ -17,7 +17,7 @@ class AddMember extends React.Component {
     render() {
         return (
             <div className="add-member">
-                <form className="form section" netlify>
+                <form className="form section" data-netlify="true">
                     <input className="input is-primary" type="text" placeholder="Name..." ref="_name" /> <br />
                     <button className="button is-primary" onClick={this.setMembers}>Add Member</button>
                 </form>
