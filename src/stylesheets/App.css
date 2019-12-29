@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  text-align: start;
 }
 
 .App-logo {
@@ -35,4 +35,16 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.App .add-member button {
+  margin-top: 10px;
+}
+
+.App .add-member input {
+  width: 50%;
+}
+
+.App .members-list .list {
+  padding: 12px;
 }
