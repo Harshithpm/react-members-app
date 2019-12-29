@@ -5,7 +5,7 @@ import Member from './Member.react'
 class MembersList extends React.Component {
     render() {
         return (
-            <div className="members-list">
+            <div className="members-list container">
                 {this.props.members.length === 0 ? (
                     <p className="content">No Members Yet!</p>
                 ) : (
