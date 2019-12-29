@@ -20,8 +20,4 @@ class MembersList extends React.Component {
     }
 }
 
-MembersList.defaultProps = {
-    members: ['1', '2', '3']
-}
-
 export default MembersList
