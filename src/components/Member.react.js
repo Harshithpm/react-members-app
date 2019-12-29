@@ -2,7 +2,7 @@ import React from 'react'
 
 const Member = (props) => {
     return (
-        <div className="member">
+        <div className="member list-item">
             <p className="member-name">{props.name}</p>
         </div>
     )
