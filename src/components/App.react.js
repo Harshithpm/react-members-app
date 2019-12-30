@@ -1,6 +1,7 @@
 import React from 'react';
 import '../stylesheets/App.css';
 import '../../node_modules/@fortawesome/fontawesome-free/css/all.css';
+import v4 from 'uuid'
 import AddMember from './AddMember.react';
 import MembersList from './MembersList.react';
 
@@ -12,9 +13,7 @@ class App extends React.Component {
   }
 
   state = {
-    members: [
-      
-    ]
+    members: []
   }
 
   setMembers(name, email) {
@@ -29,6 +28,7 @@ class App extends React.Component {
     const members = [
       ...this.state.members,
       {
+        id: v4(),
         name,
         email
       }

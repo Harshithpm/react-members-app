@@ -44,3 +44,7 @@
 .App .add-member input {
   width: 50%;
 }
+
+.App .add-member input.email {
+  margin-top: 5px;
+}
