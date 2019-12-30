@@ -12,17 +12,26 @@ class App extends React.Component {
   }
 
   state = {
-    members: []
+    members: [
+      
+    ]
   }
 
-  setMembers(name) {
+  setMembers(name, email) {
     if (name === '') {
       alert('name is empty!')
       return
     }
+    if (email === '') {
+      alert('email is empty!')
+      return
+    }
     const members = [
       ...this.state.members,
-      name
+      {
+        name,
+        email
+      }
     ]
     this.setState({ members })
   }

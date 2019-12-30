@@ -10,8 +10,8 @@ class MembersList extends React.Component {
                     <p className="content">No Members Yet!</p>
                 ) : (
                     <ul className="list">
-                    {this.props.members.map(function(name, index) {
-                        return <Member key={index} name={name} />
+                    {this.props.members.map(function(m, index) {
+                        return <Member key={index} name={m.name} email={m.email} />
                     })}
                 </ul>
                 )}
