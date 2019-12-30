@@ -3,7 +3,7 @@ import React from 'react'
 const Member = (props) => {
     return (
         <div className="member list-item">
-            <p className="member-name">Name: {props.name}</p>
+            <p className="member-name">Name: {props.name}</p><span className="button is-danger is-outlined close-btn">X</span>
             <ul className="list-inside">
                 <li className="list-item">Email: {props.email}</li>
             </ul>
