@@ -16,7 +16,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "build:css": "node-sass ./node_modules/bulma/bulma.sass -o ./src/stylesheets/",
+    "build:css": "node-sass ./node_modules/bulma/bulma.sass -o ./src/stylesheets/ --watch",
     "tailwind": "tailwind build ./src/stylesheets/tailwind.css -o ./src/stylesheets/style-tailwind.css"
   },
   "eslintConfig": {
